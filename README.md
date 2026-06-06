@@ -1,15 +1,15 @@
-# Exploratory Data Analysis on Titanic Dataset
+# Titanic Dataset - Exploratory Data Analysis (EDA)
 
-## Project Description
+## Objective
 
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset using Python. The objective is to understand the dataset, identify missing values, detect outliers, analyze relationships between features, and extract meaningful insights through statistical analysis and visualizations.
+The objective of this project is to perform Exploratory Data Analysis (EDA) on the Titanic dataset to understand the data, identify missing values, detect outliers, and discover patterns that influence passenger survival.
 
 ## Dataset
 
 * Dataset Name: Titanic Dataset
-* File Name: `Titanic-Dataset.csv`
+* File: `Titanic-Dataset.csv`
 
-## Technologies Used
+## Tools and Libraries
 
 * Python
 * Pandas
@@ -17,18 +17,18 @@ This project performs Exploratory Data Analysis (EDA) on the Titanic dataset usi
 * Matplotlib
 * Seaborn
 
-## Analysis Performed
+## Steps Performed
 
-* Loaded and inspected the dataset.
-* Checked data types and missing values.
-* Filled missing values in Age, Embarked, and Fare columns.
-* Removed the Cabin column due to a large number of missing values.
-* Generated summary statistics.
-* Created histograms to visualize data distributions.
-* Created boxplots to identify outliers.
-* Analyzed passenger survival based on gender and passenger class.
-* Generated a correlation heatmap.
-* Created pairplots to explore relationships between numerical features.
+1. Loaded the Titanic dataset.
+2. Inspected the dataset structure and data types.
+3. Checked for missing values.
+4. Handled missing values in Age, Fare, and Embarked columns.
+5. Removed the Cabin column due to excessive missing values.
+6. Generated summary statistics.
+7. Visualized data using histograms and boxplots.
+8. Analyzed survival rates based on gender and passenger class.
+9. Created a correlation heatmap.
+10. Generated pairplots for numerical features.
 
 ## Visualizations
 
@@ -40,20 +40,20 @@ This project performs Exploratory Data Analysis (EDA) on the Titanic dataset usi
 * Correlation Heatmap
 * Pairplot
 
-## Key Findings
+## Key Insights
 
 * Most passengers were between 20 and 40 years old.
 * Female passengers had a higher survival rate than male passengers.
-* First-class passengers had a greater chance of survival.
-* Fare values contain several outliers.
-* Passenger class and fare have a noticeable relationship with survival.
+* First-class passengers had better survival chances.
+* Fare contains several outliers.
+* Passenger class and fare show a relationship with survival.
 
-## Files in Repository
+## Repository Contents
 
-* `task2.ipynb` – Jupyter Notebook containing the complete EDA process.
+* `task2_eda.ipynb` – Jupyter Notebook containing the complete EDA process.
 * `Titanic-Dataset.csv` – Dataset used for analysis.
 * `README.md` – Project documentation.
 
 ## Conclusion
 
-The Exploratory Data Analysis provided valuable insights into the Titanic dataset and highlighted important factors that influenced passenger survival.
+The Exploratory Data Analysis helped uncover important trends and relationships within the Titanic dataset. The findings indicate that factors such as gender, passenger class, and fare significantly influenced survival outcomes.
